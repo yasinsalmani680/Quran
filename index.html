@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<meta name="description"
+content="मसनून दुआएँ, कुरान पाक की छोटी सूरहें, दरूद शरीफ और इस्लामिक दुआएँ हिंदी में पढ़ें।">
+<title>कुरान की आयत</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:
+radial-gradient(circle,
+rgba(84,252,255,1) 0%,
+rgba(255,232,181,1) 100%);
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+width:100%;
+background:
+linear-gradient(90deg,
+rgba(250,0,0,1) 0%,
+rgba(253,29,29,1) 50%,
+rgba(252,176,69,1) 100%);
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+color:#222;
+font-size:25px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.menu a{
+text-decoration:none;
+color:#222;
+font-size:18px;
+}
+
+.menu a:hover{
+color:cyan;
+}
+
+/* MAIN */
+
+.main{
+text-align:center;
+padding:30px;
+}
+
+/* BUTTON */
+
+button{
+width:220px;
+min-height:50px;
+border:none;
+border-radius:20px;
+background:
+linear-gradient(90deg,
+rgb(250,162,0) 0%,
+rgba(253,182,29,1) 50%,
+rgba(232,172,7,1) 95%,
+rgba(252,176,69,1) 100%);
+color:#111;
+cursor:pointer;
+font-size:18px;
+margin-top:20px;
+transition:0.4s;
+padding:10px;
+}
+
+button:hover{
+background:green;
+color:white;
+}
+
+/* RESULT BOX */
+
+.result{
+display:none;
+background:white;
+margin:15px auto;
+padding:20px;
+width:85%;
+border-radius:20px;
+font-size:20px;
+line-height:40px;
+color:darkred;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+.menu{
+flex-direction:column;
+text-align:center;
+}
+
+button{
+width:95%;
+}
+
+.result{
+width:95%;
+font-size:18px;
+}
+
+}
+/*  ------------ Footer--------------*/
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+margin-top:60px;
+padding:40px 20px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.footer-box{
+flex:1;
+min-width:220px;
+}
+
+.footer-box h2,
+.footer-box h3{
+margin-bottom:15px;
+color:gold;
+}
+
+.footer-box p{
+line-height:30px;
+font-size:16px;
+}
+
+.footer-box a{
+display:block;
+color:white;
+text-decoration:none;
+margin-top:10px;
+transition:0.3s;
+}
+
+.footer-box a:hover{
+color:cyan;
+}
+
+.copy{
+text-align:center;
+margin-top:30px;
+border-top:1px solid gray;
+padding-top:20px;
+font-size:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+कुरान की आयत
+</div>
+
+<div class="menu">
+  <a href="#">Home</a>
+<a href="https://aboutus109.blogspot.com/">About</a>
+<a href="https://quranconte.blogspot.com/">Contact</a>
+</div>
+
+</nav>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<h1>कुरान पाक</h1>
+
+<!-- BUTTON 1 -->
+
+<button onclick="showContent('box1')">
+सूरह फातिहा
+</button>
+
+<div id="box1" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम</h3>
+
+!! अल्हम्दु लिल लाहि रब्बिल आलमीन
+अर रहमा निर रहीम
+मालिकि यौमिद्दीन
+इयका नाम बदुवइस्याका नस्तईन इहदिनस् सिरातल मुस्तक़ीम
+सिरातल लज़ीना अन अमता अलय हिम
+गैरिल मग़दूबी अलय हिम् व लद दाललीन (अमीन) !!
+
+</div>
+
+
+
+<!-- BUTTON 2 -->
+
+<button onclick="showContent('box2')">
+दरूद पाक
+</button>
+
+<div id="box2" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम</h3>
+
+!!अल्लाहुम्मा सल्लि अला मुहम्मदिन
+व अला आलि मुहम्मदिन
+कमा सल्लैता अला इब्राहीम
+व अला आलि इब्राहीम
+इन्नक हमीदुम मजीद !!
+
+</div>
+
+
+
+<!-- BUTTON 3 -->
+
+<button onclick="showContent('box3')">
+सूरह नास
+</button>
+
+<div id="box3" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम</h3>
+!!
+कुल अऊजु बिरब्बिन नास
+मलिकिन नास
+इलाहिन नास
+मिन शर रिल वसवा सिल खन्नास
+अल्लज़ी युवस विसु फी सुदूरिन नास
+मिनल जिन्नति वन नास !!
+
+</div>
+
+
+
+<!-- BUTTON 4 -->
+
+<button onclick="showContent('box4')">
+सूरह फलक
+</button>
+
+<div id="box4" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम</h3>
+
+ !! कुल अऊजु बिरब्बिल फलक
+मिन शर रिमा ख़लक़
+वामिन शर रिग़ासिकिन इज़ा वकब
+वमिन शर रिन नफ़फ़ासाति फ़िल उक़द
+वमिन शर रिहासिदिन इज़ा हसद !!
+
+</div>
+
+
+
+<!-- BUTTON 5 -->
+
+<button onclick="showContent('box5')">
+सूरह इख्लास
+</button>
+
+<div id="box5" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम</h3>
+
+!! कुल हुवल लाहू अहद <br>
+अल्लाहुस समद  लम यलिद वलम यूलद
+वलम यकूल लहू कुफुवन अहद !!
+
+</div>
+
+
+
+<!-- BUTTON 6 -->
+
+<button onclick="showContent('box6')">
+सूरह लहब
+</button>
+
+<div id="box6" class="result">
+
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+
+!!
+तब्बत यदा अबी लहबिव वतब्ब
+मा अगना अन्हु मलुहू वमा कसब
+सयसला नारन ज़ात लहब
+वम रअतुहू हम्मा लतल हतब
+फिजीदिहा हब्लुम मिम मसद!!
+
+</div>
+
+<!-----BUTTON 7-->
+<button onclick="showContent('box7')">
+  सूरह नस्र
+</button>
+<div id="box7" class="result">
+<h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम  </h3>
+  !!
+इजा जा अनसरुल लाहि वल फतह
+वर अयतन नास यद् खुलूना फ़ी दीनिल लाहि अफ्वाजा
+फसब्बिह बिहम्दि रब्बिका वस्तग फिरहु
+इन्नहु कान तव्वाबा !!
+</div>
+
+<!-- BUTTON 8-------------------------------------------->
+ <button onclick="showContent('box8')">
+सूरह काफिरून
+ </button>
+ <div id="box8"class="result">
+  <h3> बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+!!
+कुल या अय्युहल काफिरून
+ ला अ' अबुदु मा तअ'बुदून
+ वला अन्तुम आबिदूना मा अ' अबुद
+ वला अना आबिदुम मा अबद्तुम
+ वला अन्तुम आबिदूना मा अअ'बुद
+ लकुम दीनुकुम वलिय दीन !!
+ </div>
+
+<!---------BUTTON 9--------------------------------------->
+
+
+<button onclick="showContent('box9')">
+सूरह कौसर
+ </button>
+ <div id="box9"class="result">
+  <h3> बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+
+ !! इन्ना आतय नाकल कौसर
+ फसल्लि लिरब्बिका वन्हर
+ इन्ना शानिअका हुवल अब्तर !!
+ </div>
+
+<!---------BUTTON 10----------------------------->
+<button onclick="showContent('box10')">
+सूरह माऊन 
+</button>
+<div id="box10"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+  !! अर अयतल लज़ी युकज्ज़िबू बिददीन
+फ ज़ालिकल लज़ी यदु उल यतीम
+वला यहुज्जु अला तआमिल मिस्कीन
+फ वय्लुल लिल मुसल्लीन
+अल्लज़ीना हुम अन सलातिहिम साहून
+अल्लज़ीना हुम युराऊन
+व यम नऊनल माऊन !!
+</div>
+
+
+
+
+<!--------------------BUTTON 11---------------------------------------->
+<button onclick="showContent('box11')">
+सूरह कुरैश 
+</button>
+<div id="box11"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+  !! लि ईलाफि कुरैश
+इलाफिहिम रिहलतश शिताई वस सैफ
+फल यअ'बुदू रब्बा हाज़ल बैत
+अल्लज़ी अत अमहुम मिन जूअ
+व आमनहुम मिन खौफ !!
+</div>
+
+<!---------------------------------BUTTON 12--------------------------------->
+<button onclick="showContent('box12')">
+सूरह फ़ील 
+</button>
+<div id="box12"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+  !! अलम तरा कैफा फअला रब्बुका बि अस हाबिल फील
+लम यज अल कैदहूम फ़ी तजलील
+व अरसला अलैहिम तैरन अबाबील
+तरमीहिम बि हिजारतिम मिन सिज्जील
+फजा अलहुम का अस्फिम माकूल !!
+</div>
+
+<!--------------------BUTTON 13-------------------->
+<button onclick="showContent('box13')">
+सूरह अस्र 
+</button>
+<div id="box13"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+  !! वल अस्र
+इन्नल इंसाना लफ़ी खुस्र
+इल्लल लज़ीना आमनू व अमिलुस सालिहाति व तवासौ बिल हक्कि वतवा सौ बिस सब्र !!
+</div>
+
+<!--------------BUTTON 14 --------------------------------->
+<button onclick="showContent('box14')">
+सूरह तकासुर 
+</button>
+<div id="box14"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+  !! अल हाकुमुत तका सुर
+  हत्ता जुरतुमुल मक़ा बिर
+   कल्ला सौफ़ा तअ'लमून
+   सुम्मा कल्ला सौफ़ा तअ'लमून
+   कल्ला लौ तअ'लमूना इल्मल यकीन
+   लता रवुन्नल जहीम
+   सुम्मा लता रवुन्नहा ऐनल यकीन
+   सुम्मा लतुस अलुन्ना यौमइजिन अनिन नईम !!
+</div>
+<!--------------BUTTON 15 --------------------------------->
+<button onclick="showContent('box15')">
+सूरह कद्र 
+</button>
+<div id="box15"class="result">
+  <h3>बिस्मिल्लाह-हिर्रहमान-निर्रहीम </h3>
+ !! इन्ना अनज़ल नाहु फ़ी लैलतिल कद्र
+वमा अदराक मा लैलतुल कद्र
+लय्लतुल क़दरि खैरुम मिन अल्फि शह
+तनज़ ज़लूल मलाइ कतु वररूहू फ़ीहा बि इजनि रब्बिहिम मिन कुल्लि अम्र
+सलामुन हिया हत्ता मत लइल फज्र !!
+</div>
+
+</div>
+<!-- JAVASCRIPT -->
+
+<script>
+
+function showContent(id){
+
+/* सभी result बंद */
+
+let allBoxes =
+document.querySelectorAll(".result");
+
+allBoxes.forEach(function(box){
+
+box.style.display = "none";
+
+});
+
+/* जिस button पर click हुआ वही open */
+
+document.getElementById(id)
+.style.display = "block";
+
+}
+
+</script>
+<!-----------------------Footer ------------->
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<h2>कुरान की आयत</h2>
+
+<p>
+इस वेबसाइट में कुरान पाक की छोटी
+सूरहें और दुआएँ दी गई हैं।
+</p>
+
+</div>
+
+
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</div>
+
+
+
+<div class="footer-box">
+
+<h3>Important</h3>
+
+<p>
+Daily Islamic Learning <br>
+Namaz <br>
+Dua <br>
+Quran
+</p>
+
+</div>
+
+</div>
+
+<p class="copy">
+© 2026 कुरान की आयत | All Rights Reserved  <br>   <br> Yasin Salmani Sadabad 9045778129 
+</p>
+
+</footer>
+</body>
+
+</html>
